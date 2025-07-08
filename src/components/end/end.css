@@ -1,0 +1,149 @@
+.endpic1 {
+  position: relative;
+  width: 100%;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 100px;
+  
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f4f4f4;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-group textarea {
+  border-radius: 12px;
+  height: 100px;
+}
+
+.submit-btn {
+  background-color: #000;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  -o-transition: background-color 1s;
+}
+
+.submit-btn:hover {
+  background-color: #ff3300;
+}
+
+.us {
+  position: relative;
+  bottom: 240px;
+  right: 49%;
+  color: orangered;
+  font-weight: 800;
+  text-align: center;
+  font-size: 18px;
+}
+
+.agent {
+  position: relative;
+  right: 49%;
+
+  bottom: 240px;
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.Mapandform {
+  position: relative;
+  bottom: 100px;
+  
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 80px;
+  color: #333;
+  font-size: 14px;
+  text-align: left;
+}
+
+.contact-info img {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    width: 100%;
+    bottom: 50px;
+  }
+
+  .us,
+  .agent {
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .contact-info {
+    flex-direction: row;
+    gap: 12px;
+    font-size: 14px;
+    text-align: left;
+    bottom: 30px;
+  }
+
+  .contact-info img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .Mapandform {
+    bottom: 40px;
+  }
+}

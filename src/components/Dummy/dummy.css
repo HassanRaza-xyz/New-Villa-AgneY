@@ -1,0 +1,163 @@
+.deal-title {
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.deal-card {
+  background-color: #f9f9f9;
+}
+
+.deal-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 2px solid #b3a9a9;
+}
+.deal-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-radius: 0%;
+  border-color: aquamarine;
+  border: 2px solid rgb(255, 0, 0);
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
+}
+.custom-btn {
+  width: 100px;
+  font-size: 14px;
+}
+
+.button-group button {
+  margin-right: 10px;
+}
+
+.extra-info {
+  font-size: 14px;
+}
+
+.imge {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.total-body {
+  background-color: white;
+  box-shadow: 0 0 10px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+
+.info-roww {
+  border-bottom: 2px solid gray;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.valee {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.IMAGINE {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.txtt {
+  font-weight: 800;
+  font-size: 42px;
+}
+
+.smalltext {
+  font-size: small;
+  color: orangered;
+}
+
+.BUTTOON {
+  color: white;
+  background-color: black;
+  display: block;
+  margin: 15px auto 0;
+  width: 90%;
+}
+
+.bttn:hover {
+  background-color: rgb(255, 68, 0);
+  transition: background-color 1s;
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  -o-transition: background-color 1s;
+}
+
+.infoo-boody {
+  position: relative;
+}
+
+.bttn {
+  padding: 10px;
+  margin: 5px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .txtt {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .bttn {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .total-body {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .IMAGINE {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .TAZT {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 15px;
+  }
+
+  .TEXTTTT {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .row.align-items-center {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .col-md-4,
+  .col-4,
+  .col-6 {
+    width: 100% !important;
+    padding: 10px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,148 @@
+.property-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  flex-wrap: wrap; /* Allows items to move to the next line on smaller screens */
+  background-color: #f8f8f8;
+  gap: 30px; /* Adds space between items */
+}
+
+.property-left,
+.property-middle,
+.property-right {
+  flex: 1;
+  min-width: 280px; 
+}
+
+.property-indent {
+  margin-left: 20px;
+}
+
+.property-left {
+  position: relative;
+}
+
+.property-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.property-icon {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-text {
+  color: #ff6600;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.property-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.accordion-button {
+  background-color: #fff;
+  color: #333;
+  font-weight: 600;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ffeae2;
+  color: #ff6d0c;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.property-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+.info-icon {
+  font-size: 28px;
+  color: #ff6600;
+}
+
+@media (max-width: 992px) {
+  .property-container {
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .property-title {
+    font-size: 24px;
+  }
+
+  .accordion-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .property-container {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .property-left,
+  .property-middle,
+  .property-right {
+    margin-left: 0 !important;
+  }
+
+  .property-title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .featured-text {
+    text-align: center;
+  }
+
+  .info-item {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .property-image{
+    width: 90%;
+
+height: auto;  }
+
+  .info-icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+}
+
+
